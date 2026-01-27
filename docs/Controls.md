@@ -25,7 +25,7 @@ local Controls = Engine:GetComponent("Controls")
 
 ---
 
-№ Public API
+# Public API
 
 `Controls:Move(direction)`
 Moves the player forward or backward relative to the current facing direction.
