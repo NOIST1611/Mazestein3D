@@ -73,7 +73,7 @@ end
 * `PlayerFOV` - degrees (converted internally to radians).
 * `RaycasterRays` - integer, number of vertical slices (quality vs perf).
 * `RaycasterRayStepSize` - integer, stepping resolution for rays (1 = best quality, higher = faster).
-* `WallsColor`, `FloorColor`, `BackgroundColor` — colors in `Color(r,g,b)` format.
+* `WallsColor`, `FloorColor`, `BackgroundColor` - colors in `Color(r,g,b)` format.
 
 ---
 
