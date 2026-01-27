@@ -29,7 +29,7 @@ Engine.Initialize(GameConfig, gdt.CPU0, gdt.VideoChip0)
 ```
 
 * `config` — `GameConfig` table (see GameConfig section)
-* `cpu`, `video` — runtime objects passed to components for integration
+* `cpu`, `video` - runtime objects passed to components for integration
 
 If `Engine.Initialize` was already called, subsequent calls return immediately.
 
@@ -83,10 +83,10 @@ This order avoids race conditions where render runs before movement or physics.
 
 ## Types (short)
 
-* **Vector** — `BetterVector.Vector` (used for `PlayerPosition`)
-* **GameConfig** — configuration passed to `Engine.Initialize` (see below)
-* **RenderAPI** — expected API shape for the Render component (`AddRenderStep`, `RemoveRenderStep`, `OnRender`, `FOV`, etc.)
-* **ControlsAPI** — expected API for Controls (`SetAngle`, `AddAngle`, `Move`, `PlayerSpeed`)
+* **Vector** - `BetterVector.Vector` (used for `PlayerPosition`)
+* **GameConfig** - configuration passed to `Engine.Initialize` (see below)
+* **RenderAPI** - expected API shape for the Render component (`AddRenderStep`, `RemoveRenderStep`, `OnRender`, `FOV`, etc.)
+* **ControlsAPI** - expected API for Controls (`SetAngle`, `AddAngle`, `Move`, `PlayerSpeed`)
 
 ---
 
@@ -94,7 +94,7 @@ This order avoids race conditions where render runs before movement or physics.
 
 `GameConfig` is a plain table with the following fields (Engine passes it to components):
 
-* `TileMap` : `number[]` — row-major 1D array where `1 = wall`, `0 = empty`
+* `TileMap` : `number[]` - row-major 1D array where `1 = wall`, `0 = empty`
 * `TileMapWidth` : number
 * `TileMapHeight` : number
 * `PlayerPosition` : `BetterVector` (world coords)
