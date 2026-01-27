@@ -77,18 +77,18 @@ end
 
 ## Documentation links (component-level)
 
-* Engine docs: `https://github.com/NOIST1611/Mazestein3D/blob/main/docs/Engine.md`
-* Render docs: `https://github.com/NOIST1611/Mazestein3D/blob/main/docs/Render.md`
-* Controls docs: `https://github.com/NOIST1611/Mazestein3D/blob/main/docs/Controls.md`
+* [Engine docs](https://github.com/NOIST1611/Mazestein3D/blob/main/docs/Engine.md)
+* [Render docs](https://github.com/NOIST1611/Mazestein3D/blob/main/docs/Render.md)
+* [Controls docs](https://github.com/NOIST1611/Mazestein3D/blob/main/docs/Controls.md)
 
 ## External dependencies / related projects
 
-* BetterVector (vector utility) — `https://github.com/NOIST1611/BetterVector`
-* BetterEvents (event util) — `https://github.com/NOIST1611/BetterEvents`
+* [BetterVector (vector utility)](https://github.com/NOIST1611/BetterVector)
+* [BetterEvents (event utility)](https://github.com/NOIST1611/BetterEvents)
 
 ## Example gadget / demo
 
-* Maze demo example (uses the DFS generator): `https://github.com/NOIST1611/Mazestein3D/tree/main/examples/V0.1`
+* [Maze demo example (uses the DFS generator)](https://github.com/NOIST1611/Mazestein3D/tree/main/examples/V0.1)
 
 ---
 
