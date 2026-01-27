@@ -101,3 +101,29 @@ Steps are automatically sorted by priority.
 ---
 
 `Render:RemoveRenderStep(name)`
+Removes a previously registered render step.
+```lua
+Render:RemoveRenderStep("DebugGrid")
+```
+Safe to call even if the step does not exist.
+
+---
+
+## Render Pipeline Overview
+The default pipeline consists of:
+
+Clear screen
+
+Background
+
+Floor
+
+Walls (raycasting)
+
+---
+
+## Notes & Limitations
+    * Renderer currently uses step-based raycasting, not DDA.
+    * Smaller ray step sizes improve visual quality but reduce performance.
+    * Renderer assumes a grid-based tile map.
+    * Texture support is planned but not available yet.
