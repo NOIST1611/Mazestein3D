@@ -37,8 +37,6 @@ Goals:
 Planned changes:
 - Safer component initialization order
 - Better error messages and validation
-- Expanded documentation per component
-- GameConfig documentation
 
 Optional:
 - Minor render optimizations
