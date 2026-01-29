@@ -54,6 +54,7 @@ Goals:
 Planned features:
 - Fully functional debugger and overall improved error handling
 - Optional debug render mode (grid / rays)
+- Add support for UI
 ---
 
 ## v0.4 – Visual Expansion
